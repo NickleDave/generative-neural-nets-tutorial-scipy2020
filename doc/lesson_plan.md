@@ -33,7 +33,7 @@
         - simplest form of fitting with Stochastic Gradient Descent
     + *hands-on* exercises, 5m: writing and training a perceptron with Numpy
 
-break, 10m. Total so far, 1h30m
+*break*, 10m. Total so far, 1h30m
 
 + **building and training your first GAN with PyTorch**, 1h30m
   - *instruction*, 40m: the Discriminator as "just" a standard neural network
@@ -89,7 +89,7 @@ break, 10m. Total so far, 1h30m
 		-   instruction: Wasserstein loss
 			-   intuition: replace discriminator with critic that scores
 		-  hands-on examples: rewrite Discriminator and training loop for original Wasserstein loss
--   5m break
+-   *break*, 5m 
 -   **GAN Applications**, 20m
 	-   *instruction*, 5m: data augmentation
 		-   hands-on exercise: 2D pottery GAN
