@@ -48,7 +48,7 @@ If you are using conda, you can install the necessary packages by opening a term
 conda update conda --yes
 conda --version  # Should be about 4.5.4
 conda env create --file=environment.yml
-conda activate pandas-scipy
+conda activate gantut
 ```
 
 If you are using Python from python.org or your system, you can install
@@ -56,8 +56,8 @@ the necessary packages by opening a terminal and entering the following:
 
 ```sh
 # Create a new environment
-python3 -m venv pandas-scipy
-source pandas-scipy/bin/activate
+python3 -m venv gantut
+source gantut/bin/activate
 
 pip install -U pip wheel setuptools
 pip install -U -r requirements.txt
@@ -67,7 +67,7 @@ pip install -U -r requirements.txt
 
 To make sure everything was installed correctly, open a terminal,
 and change its directory (`cd`) so that your working directory is
-`Pandas-Tutorial-SciPyConf-2018`. The enter the following:
+`generative-neural-nets-tutorial-scipy2020`. The enter the following:
 
 ```sh
 python check_environment.py
