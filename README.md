@@ -78,3 +78,15 @@ python check_environment.py
 ```sh
 jupyter notebook
 ```
+
+## Table of Contents (TOC)
+
+- Introduction
+    + [Why generative](notebooks/intro/01-why-generative.ipynb)
+    + [Why GANs](notebooks/intro/02-why-GANs.ipynb)
+    
+- GANs with Pytorch
+    + [Discriminator](notebooks/GANs-with-pytorch/01-discriminator.ipynb)
+    + [Training SGD](notebooks/GANs-with-pytorch/02-training-SGD.ipynb)
+    + [Generator](notebooks/GANs-with-pytorch/03-generator.ipynb)
+    + [Training Adversarial](notebooks/GANs-with-pytorch/04-training-adversarial.ipynb)
